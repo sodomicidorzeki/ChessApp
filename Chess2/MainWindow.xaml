@@ -1,0 +1,217 @@
+﻿<Window x:Class="Chess2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chess2"
+        mc:Ignorable="d"
+        Title="Chessboard"
+        MinHeight="825"
+        MinWidth="825">
+    <Grid>
+        <Rectangle x:Name="_56" Tag="56" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="80,630,633,70"/>
+        <Rectangle x:Name="_48" Tag="48" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="80,550,633,150"/>
+        <Rectangle x:Name="_40" Tag="40" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="80,470,633,230"/>
+        <Rectangle x:Name="_32" Tag="32" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="80,390,633,310"/>
+        <Rectangle x:Name="_24" Tag="24" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="80,310,633,390"/>
+        <Rectangle x:Name="_16" Tag="16" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="80,230,633,470"/>
+        <Rectangle x:Name="_8" Tag="8" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="80,150,633,550"/>
+        <Rectangle x:Name="_0" Tag="0" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="80,70,633,630"/>
+
+
+        <Rectangle x:Name="_57" Tag="57" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="160,630,553,70"/>
+        <Rectangle x:Name="_49" Tag="49" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="160,550,553,150"/>
+        <Rectangle x:Name="_41" Tag="41" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="160,470,553,230"/>
+        <Rectangle x:Name="_33" Tag="33" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="160,390,553,310"/>
+        <Rectangle x:Name="_25" Tag="25" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="160,310,553,390"/>
+        <Rectangle x:Name="_17" Tag="17" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="160,230,553,470"/>
+        <Rectangle x:Name="_9" Tag="9" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="160,150,553,550"/>
+        <Rectangle x:Name="_1" Tag="1" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="160,70,553,630"/>
+
+
+        <Rectangle x:Name="_58" Tag="58" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="240,630,473,70"/>
+        <Rectangle x:Name="_50" Tag="50" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="240,550,473,150"/>
+        <Rectangle x:Name="_42" Tag="42" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="240,470,473,230"/>
+        <Rectangle x:Name="_34" Tag="34" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="240,390,473,310"/>
+        <Rectangle x:Name="_26" Tag="26" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="240,310,473,390"/>
+        <Rectangle x:Name="_18" Tag="18" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="240,230,473,470"/>
+        <Rectangle x:Name="_10" Tag="10" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="240,150,473,550"/>
+        <Rectangle x:Name="_2" Tag="2" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="240,70,473,630"/>
+
+
+        <Rectangle x:Name="_59" Tag="59" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="320,630,393,70"/>
+        <Rectangle x:Name="_51" Tag="51" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="320,550,393,150"/>
+        <Rectangle x:Name="_43" Tag="43" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="320,470,393,230"/>
+        <Rectangle x:Name="_35" Tag="35" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="320,390,393,310"/>
+        <Rectangle x:Name="_27" Tag="27" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="320,310,393,390"/>
+        <Rectangle x:Name="_19" Tag="19" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="320,230,393,470"/>
+        <Rectangle x:Name="_11" Tag="11" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="320,150,393,550"/>
+        <Rectangle x:Name="_3" Tag="3" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="320,70,393,630"/>
+
+
+        <Rectangle x:Name="_60" Tag="60" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="400,630,313,70"/>
+        <Rectangle x:Name="_52" Tag="52" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="400,550,313,150"/>
+        <Rectangle x:Name="_44" Tag="44" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="400,470,313,230"/>
+        <Rectangle x:Name="_36" Tag="36" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="400,390,313,310"/>
+        <Rectangle x:Name="_28" Tag="28" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="400,310,313,390"/>
+        <Rectangle x:Name="_20" Tag="20" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="400,230,313,470"/>
+        <Rectangle x:Name="_12" Tag="12" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="400,150,313,550"/>
+        <Rectangle x:Name="_4" Tag="4" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="400,70,313,630"/>
+
+
+        <Rectangle x:Name="_61" Tag="61" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="480,630,233,70"/>
+        <Rectangle x:Name="_53" Tag="53" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="480,550,233,150"/>
+        <Rectangle x:Name="_45" Tag="45" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="480,470,233,230"/>
+        <Rectangle x:Name="_37" Tag="37" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="480,390,233,310"/>
+        <Rectangle x:Name="_29" Tag="29" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="480,310,233,390"/>
+        <Rectangle x:Name="_21" Tag="21" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="480,230,233,470"/>
+        <Rectangle x:Name="_13" Tag="13" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="480,150,233,550"/>
+        <Rectangle x:Name="_5" Tag="5" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="480,70,233,630"/>
+
+
+        <Rectangle x:Name="_62" Tag="62" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="560,630,153,70"/>
+        <Rectangle x:Name="_54" Tag="54" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="560,550,153,150"/>
+        <Rectangle x:Name="_46" Tag="46" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="560,470,153,230"/>
+        <Rectangle x:Name="_38" Tag="38" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="560,390,153,310"/>
+        <Rectangle x:Name="_30" Tag="30" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="560,310,153,390"/>
+        <Rectangle x:Name="_22" Tag="22" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="560,230,153,470"/>
+        <Rectangle x:Name="_14" Tag="14" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="560,150,153,550"/>
+        <Rectangle x:Name="_6" Tag="6" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="560,70,153,630"/>
+
+
+        <Rectangle x:Name="_63" Tag="63" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="640,630,73,70"/>
+        <Rectangle x:Name="_55" Tag="55" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="640,550,73,150"/>
+        <Rectangle x:Name="_47" Tag="47" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="640,470,73,230"/>
+        <Rectangle x:Name="_39" Tag="39" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="640,390,73,310"/>
+        <Rectangle x:Name="_31" Tag="31" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="640,310,73,390"/>
+        <Rectangle x:Name="_23" Tag="23" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="640,230,73,470"/>
+        <Rectangle x:Name="_15" Tag="15" Fill="Tan" Height="80" Width="80" Stroke="Black" Margin="640,150,73,550"/>
+        <Rectangle x:Name="_7" Tag="7" Fill="Bisque" Height="80" Width="80" Stroke="Black" Margin="640,70,73,630"/>
+
+
+
+
+        <Border Tag="w_tower" Height="80" Width="80" Margin="-552.5,560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\tw.png"/>
+        </Border>
+        <Border Tag="w_horse" Height="80" Width="80" Margin="-392.5,560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\hw.png"/>
+        </Border>
+        <Border Tag="w_bishop" Height="80" Width="80" Margin="-232.5,560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\hw.png"/>
+        </Border>
+        <Border Tag="w_king" Height="80" Width="80" Margin="-72.5,560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\kw.png"/>
+        </Border>
+        <Border Tag="w_queen" Height="80" Width="80" Margin="87.5,560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\qw.png"/>
+        </Border>
+        <Border Tag="w_bishop" Height="80" Width="80" Margin="247.5,560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\hw.png"/>
+        </Border>
+        <Border Tag="w_horse" Height="80" Width="80" Margin="407.5,560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\hw.png"/>
+        </Border>
+        <Border Tag="w_tower" Height="80" Width="80" Margin="567.5,560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\tw.png"/>
+        </Border>
+
+        <Border Tag="w_pawn" Height="80" Width="80" Margin="-552.5,400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pw.png"/>
+        </Border>
+        <Border Tag="w_pawn" Height="80" Width="80" Margin="-392.5,400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pw.png"/>
+        </Border>
+        <Border Tag="w_pawn" Height="80" Width="80" Margin="-232.5,400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pw.png"/>
+        </Border>
+        <Border Tag="w_pawn" Height="80" Width="80" Margin="-72.5,400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pw.png"/>
+        </Border>
+        <Border Tag="w_pawn" Height="80" Width="80" Margin="87.5,400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pw.png"/>
+        </Border>
+        <Border Tag="w_pawn" Height="80" Width="80" Margin="247.5,400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pw.png"/>
+        </Border>
+        <Border Tag="w_pawn" Height="80" Width="80" Margin="407.5,400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pw.png"/>
+        </Border>
+        <Border Tag="w_pawn" Height="80" Width="80" Margin="567.5,400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pw.png"/>
+        </Border>
+
+
+        <Border Tag="b_tower" Height="80" Width="80" Margin="-552.5,-560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\tb.png"/>
+        </Border>
+        <Border Tag="b_horse" Height="80" Width="80" Margin="-392.5,-560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\hb.png"/>
+        </Border>
+        <Border Tag="b_bishop" Height="80" Width="80" Margin="-232.5,-560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\bb.png"/>
+        </Border>
+        <Border Tag="b_queen" Height="80" Width="80" Margin="-72.5,-560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\qb.png"/>
+        </Border>
+        <Border Tag="b_king" Height="80" Width="80" Margin="87.5,-560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\kb.png"/>
+        </Border>
+        <Border Tag="b_bishop" Height="80" Width="80" Margin="247.5,-560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\bb.png"/>
+        </Border>
+        <Border Tag="b_horse" Height="80" Width="80" Margin="407.5,-560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\hb.png"/>
+        </Border>
+        <Border Tag="b_tower" Height="80" Width="80" Margin="567.5,-560,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\tb.png"/>
+        </Border>
+
+        <Border Tag="b_pawn" Height="80" Width="80" Margin="-552.5,-400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pb.png"/>
+        </Border>
+        <Border Tag="b_pawn" Height="80" Width="80" Margin="-392.5,-400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pb.png"/>
+        </Border>
+        <Border Tag="b_pawn" Height="80" Width="80" Margin="-232.5,-400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pb.png"/>
+        </Border>
+        <Border Tag="b_pawn" Height="80" Width="80" Margin="-72.5,-400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pb.png"/>
+        </Border>
+        <Border Tag="b_pawn" Height="80" Width="80" Margin="87.5,-400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pb.png"/>
+        </Border>
+        <Border Tag="b_pawn" Height="80" Width="80" Margin="247.5,-400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pb.png"/>
+        </Border>
+        <Border Tag="b_pawn" Height="80" Width="80" Margin="407.5,-400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pb.png"/>
+        </Border>
+        <Border Tag="b_pawn" Height="80" Width="80" Margin="567.5,-400,0,0" MouseDown="Click">
+            <Image Height="70" Width="70" Source="C:\Users\praktyka2024\Desktop\chess\pb.png"/>
+        </Border>
+
+        <TextBlock Height="30" Width="30" Text="1" FontSize="20" Margin="-50,630,633,70"/>
+        <TextBlock Height="30" Width="30" Text="2" FontSize="20" Margin="-50,470,633,70"/>
+        <TextBlock Height="30" Width="30" Text="3" FontSize="20" Margin="-50,310,633,70"/>
+        <TextBlock Height="30" Width="30" Text="4" FontSize="20" Margin="-50,150,633,70"/>
+        <TextBlock Height="30" Width="30" Text="5" FontSize="20" Margin="-50,-10,633,70"/>
+        <TextBlock Height="30" Width="30" Text="6" FontSize="20" Margin="-50,-170,633,70"/>
+        <TextBlock Height="30" Width="30" Text="7" FontSize="20" Margin="-50,-330,633,70"/>
+        <TextBlock Height="30" Width="30" Text="8" FontSize="20" Margin="-50,-490,633,70"/>
+
+        <TextBlock Height="30" Width="30" Text="A" FontSize="20" Margin="-540,700,0,0"/>
+        <TextBlock Height="30" Width="30" Text="B" FontSize="20" Margin="-380,700,0,0"/>
+        <TextBlock Height="30" Width="30" Text="C" FontSize="20" Margin="-220,700,0,0"/>
+        <TextBlock Height="30" Width="30" Text="D" FontSize="20" Margin="-60,700,0,0"/>
+        <TextBlock Height="30" Width="30" Text="E" FontSize="20" Margin="100,700,0,0"/>
+        <TextBlock Height="30" Width="30" Text="F" FontSize="20" Margin="260,700,0,0"/>
+        <TextBlock Height="30" Width="30" Text="G" FontSize="20" Margin="420,700,0,0"/>
+        <TextBlock Height="30" Width="30" Text="H" FontSize="20" Margin="580,700,0,0"/>
+        
+        
+        <TextBox x:Name="movement" HorizontalAlignment="Left" Margin="773,365,0,0" TextWrapping="Wrap" Text="up/down/left/right" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Confirm" HorizontalAlignment="Left" Margin="813,390,0,0" VerticalAlignment="Top" Click="movemode"/>
+    </Grid>
+</Window>

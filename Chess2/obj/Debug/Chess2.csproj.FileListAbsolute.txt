@@ -1,0 +1,15 @@
+C:\Users\praktyka2024\source\repos\Chess2\Chess2\obj\Debug\Chess2.csproj.AssemblyReference.cache
+C:\Users\praktyka2024\source\repos\Chess2\Chess2\obj\Debug\MainWindow.g.cs
+C:\Users\praktyka2024\source\repos\Chess2\Chess2\obj\Debug\App.g.cs
+C:\Users\praktyka2024\source\repos\Chess2\Chess2\obj\Debug\Chess2_MarkupCompile.cache
+C:\Users\praktyka2024\source\repos\Chess2\Chess2\obj\Debug\Chess2_MarkupCompile.lref
+C:\Users\praktyka2024\source\repos\Chess2\Chess2\bin\Debug\Chess2.exe.config
+C:\Users\praktyka2024\source\repos\Chess2\Chess2\bin\Debug\Chess2.exe
+C:\Users\praktyka2024\source\repos\Chess2\Chess2\bin\Debug\Chess2.pdb
+C:\Users\praktyka2024\source\repos\Chess2\Chess2\obj\Debug\MainWindow.baml
+C:\Users\praktyka2024\source\repos\Chess2\Chess2\obj\Debug\Chess2.g.resources
+C:\Users\praktyka2024\source\repos\Chess2\Chess2\obj\Debug\Chess2.Properties.Resources.resources
+C:\Users\praktyka2024\source\repos\Chess2\Chess2\obj\Debug\Chess2.csproj.GenerateResource.cache
+C:\Users\praktyka2024\source\repos\Chess2\Chess2\obj\Debug\Chess2.csproj.CoreCompileInputs.cache
+C:\Users\praktyka2024\source\repos\Chess2\Chess2\obj\Debug\Chess2.exe
+C:\Users\praktyka2024\source\repos\Chess2\Chess2\obj\Debug\Chess2.pdb
